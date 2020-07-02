@@ -1,0 +1,19 @@
+main: zadi15.multiHeal.Main
+name: MultiHeal
+version: 2.3
+author: https://github.com/zadi15
+description: This plugin adds individual healing options, as well as nether detection!
+api-version: 1.16
+
+commands:
+  Health:
+    aliases: heal
+    description: Heals you or another person.
+  Feed:
+    description: Feeds you or another person.
+  Extinguish:
+    aliases: ext
+    description: Extinguishes you or another person. (With Fire Resistance in the Nether!)
+  FullHealth:
+    aliases: fh
+    description: All of the above, with nether detection.
